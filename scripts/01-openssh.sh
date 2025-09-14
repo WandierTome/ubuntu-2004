@@ -337,14 +337,14 @@ sleep 5
 echo -e "Editando o arquivo de configuração config.conf, pressione <Enter> para continuar."
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/neofetch/config.conf
+	#im /etc/neofetch/config.conf
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
 echo -e "Editando o arquivo de configuração neofetch-cron, pressione <Enter> para continuar."
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/cron.d/neofetch-cron
+	#im /etc/cron.d/neofetch-cron
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
@@ -360,7 +360,7 @@ sleep 5
 echo -e "Criando o arquivo personalizado de Banner em: /etc/motd, aguarde..."
 	# opção do comando: &>> (redirecionar a saída padrão)
 	# opção do comando chmod: -v (verbose), -x (remove executable)
-	neofetch --config /etc/neofetch/config.conf > /etc/motd
+	#eofetch --config /etc/neofetch/config.conf > /etc/motd
 	chmod -v -x /etc/update-motd.d/* &>> $LOG
 echo -e "Arquivo criado com sucesso!!!, continuando com o script...\n"
 sleep 5
@@ -383,15 +383,15 @@ sleep 5
 #
 echo -e "Verificando os serviços do OpenSSH Server e do Shell-In-a-Box, aguarde..."
 	echo -e "OpenSSH....: $(systemctl status sshd | grep Active)"
-	echo -e "Shellinabox: $(systemctl status shellinabox | grep Active)"
+	#cho -e "Shellinabox: $(systemctl status shellinabox | grep Active)"
 echo -e "Serviços verificados com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
 echo -e "Verificando as versões dos serviços instalados, aguarde..."
 	# opção do comando dpkg-query: -W (show), -f (showformat), ${version} (packge information), \n (newline)
-	echo -e "Neofetch.....: $(dpkg-query -W -f '${version}\n' neofetch)"
+	#cho -e "Neofetch.....: $(dpkg-query -W -f '${version}\n' neofetch)"
 	echo -e "OpenSSH......: $(dpkg-query -W -f '${version}\n' openssh-server)"
-	echo -e "Shellinabox..: $(dpkg-query -W -f '${version}\n' shellinabox)"
+	#cho -e "Shellinabox..: $(dpkg-query -W -f '${version}\n' shellinabox)"
 echo -e "Versões verificadas com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
