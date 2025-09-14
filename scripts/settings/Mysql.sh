@@ -10,7 +10,7 @@
 # Data de criação: 10/10/2021
 # Data de atualização: 20/01/2022
 # Versão: 0.20
-# Testado e homologado para a versão do Ubuntu Server 20.04.x LTS x64
+# Testado e homologado para a versão do Ubuntu Server 24.04.x LTS x64
 #
 # Instalando o SGBD (Sistema de Gerenciamento de Banco de Dados) MySQL ou MariaDB
 sudo apt update && sudo apt install mysql-server mysql-client mysql-common

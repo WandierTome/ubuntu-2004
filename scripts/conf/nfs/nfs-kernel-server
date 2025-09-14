@@ -8,7 +8,7 @@
 # Data de criação: 03/04/2022
 # Data de atualização: 05/04/2022
 # Versão: 0.02
-# Testado e homologado para a versão do Ubuntu Server 20.04.x LTS x64
+# Testado e homologado para a versão do Ubuntu Server 24.04.x LTS x64
 # Testado e homologado para a versão do NFS Server v4.x
 #
 # Defina como um valor numérico específico para identificar o número de instâncias do 

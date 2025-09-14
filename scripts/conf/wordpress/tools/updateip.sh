@@ -9,7 +9,7 @@
 # Data de criação: 12/01/2022
 # Data de atualização: 18/04/2022
 # Versão: 0.03
-# Testado e homologado para a versão do Ubuntu Server 20.04.x LTS x64x
+# Testado e homologado para a versão do Ubuntu Server 24.04.x LTS x64x
 # Testado e homologado para a versão do Wordpress v5.8.x
 #
 # Script de atualização da alteração do Endereço IPv4 do Banco de Dados do Wordpress

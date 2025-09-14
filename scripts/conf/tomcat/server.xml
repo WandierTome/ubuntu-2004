@@ -10,7 +10,7 @@
 # Data de criação: 24/10/2021
 # Data de atualização: 12/05/2022
 # Versão: 0.07
-# Testado e homologado para a versão do Ubuntu Server 20.04.x LTS x64x
+# Testado e homologado para a versão do Ubuntu Server 24.04.x LTS x64x
 # Testado e homologado para a versão do Tomcat 9.0.x, OpenJDK 11.x e OpenJRE 11.x
 -->
 <Server port="-1" shutdown="SHUTDOWN">

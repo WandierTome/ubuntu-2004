@@ -10,7 +10,7 @@
 # Data de criação: 10/10/2021
 # Data de atualização: 30/04/2023
 # Versão: 0.28
-# Testado e homologado para a versão do Ubuntu Server 20.04.x LTS x64
+# Testado e homologado para a versão do Ubuntu Server 24.04.x LTS x64
 # Testado e homologado para a versão do OpenSSH Server v8.2.x
 #
 # OpenSSH (Open Secure Shell) é um conjunto de utilitários de rede relacionado à segurança que 
@@ -77,17 +77,17 @@ source 00-parametros.sh
 # Configuração da variável de Log utilizado nesse script
 LOG=$LOGSCRIPT
 #
-# Verificando se o usuário é Root e se a Distribuição é >= 20.04.x 
+# Verificando se o usuário é Root e se a Distribuição é >= 24.04.x 
 # [ ] = teste de expressão, && = operador lógico AND, == comparação de string, exit 1 = A maioria 
 # dos erros comuns na execução
 clear
-if [ "$USUARIO" == "0" ] && [ "$UBUNTU" == "20.04" ]
+if [ "$USUARIO" == "0" ] && [ "$UBUNTU" == "24.04" ]
 	then
 		echo -e "O usuário é Root, continuando com o script..."
-		echo -e "Distribuição é >= 20.04.x, continuando com o script..."
+		echo -e "Distribuição é >= 24.04.x, continuando com o script..."
 		sleep 5
 	else
-		echo -e "Usuário não é Root ($USUARIO) ou a Distribuição não é >= 20.04.x ($UBUNTU)"
+		echo -e "Usuário não é Root ($USUARIO) ou a Distribuição não é >= 24.04.x ($UBUNTU)"
 		echo -e "Caso você não tenha executado o script com o comando: sudo -i"
 		echo -e "Execute novamente o script para verificar o ambiente."
 		exit 1
@@ -172,7 +172,7 @@ if [ -f $LOG ]
 		sleep 5
 fi
 #
-# Script de configuração do OpenSSH Server no GNU/Linux Ubuntu Server 20.04.x LTS
+# Script de configuração do OpenSSH Server no GNU/Linux Ubuntu Server 24.04.x LTS
 # opção do comando echo: -e (enable interpretation of backslash escapes), \n (new line)
 # opção do comando date: + (format), %d (day), %m (month), %Y (year 1970), %H (hour 24), %M (minute 60)
 # opção do comando hostname: -I (all-ip-addresses)
@@ -181,7 +181,7 @@ echo -e "Início do script $0 em: $(date +%d/%m/%Y-"("%H:%M")")\n" &>> $LOG
 clear
 echo
 #
-echo -e "Configuração do OpenSSH Server no GNU/Linux Ubuntu Server 20.04.x\n"
+echo -e "Configuração do OpenSSH Server no GNU/Linux Ubuntu Server 24.04.x\n"
 echo -e "Porta padrão utilizada pelo OpenSSH Server.: TCP $PORTSSH"
 echo -e "Porta padrão utilizada pelo Shell-In-a-Box.: TCP $PORTSHELLINABOX"
 echo -e "Após a instalação do Shell-In-a-Box acessar a URL: https://$(hostname -I | cut -d' ' -f1):$PORTSHELLINABOX/\n"

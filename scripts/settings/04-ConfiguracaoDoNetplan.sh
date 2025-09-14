@@ -10,9 +10,9 @@
 # Data de criação: 10/10/2021
 # Data de atualização: 20/01/2022
 # Versão: 0.20
-# Testado e homologado para a versão do Ubuntu Server 20.04.x LTS x644
+# Testado e homologado para a versão do Ubuntu Server 24.04.x LTS x644
 #
-# Configuração da Placa de Rede no GNU/Linux Ubuntu 20.04.x LTS
+# Configuração da Placa de Rede no GNU/Linux Ubuntu 24.04.x LTS
 # UDEV (userspace /dev) responsável por controlar os dispositivos do
 # sistema utilizando o Systemd para nomear as Placas de Rede no Ubuntu
 # Site: https://netplan.io/examples
@@ -68,7 +68,7 @@ sudo apt install bridge-utils ifenslave net-tools
 # o Netplan. OBSERVAÇÃO: o nome do arquivo pode mudar dependendo da versão
 # do Ubuntu Server.
 /etc/netplan/50-cloud-init.yaml #Padrão Ubuntu Server 18.04.x LTS
-/etc/netplan/00-installer-config.yaml #Padrão Ubuntu Server 20.04.x LTS
+/etc/netplan/00-installer-config.yaml #Padrão Ubuntu Server 24.04.x LTS
 #
 # OBSERVAÇÃO IMPORTANTE: o arquivo de configuração o Netplan e baseado no
 # formato de serialização de dados legíveis YAML (Yet Another Markup Language)

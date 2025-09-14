@@ -9,7 +9,7 @@ Github: https://github.com/vaamonde
 Data de criação: 10/10/2021
 Data de atualização: 17/05/2023
 Versão: 0.26
-Testado e homologado para a versão do Ubuntu Server 20.04.x LTS x64
+Testado e homologado para a versão do Ubuntu Server 24.04.x LTS x64
 
 ============================================= CRIAÇÃO DE NOVOS SCRIPTS =============================================
 17/05/2023 - Robson Vaamonde - Indicação do inscrito no Canal do YouTUBE: Wagner Silva - Estudos e criação do script: 
@@ -49,7 +49,7 @@ iPad, Android, Windows, Linux, etc. (Qualquer Desktop, Laptop, Celular e Tablets
 de backup de código aberto que facilita a navegação e a restauração de arquivos por meio de navegação simplificada, 
 incluindo gerenciamento fácil do acesso do usuário.
 
-14/05/2022 - Robson Vaamonde - Migração dos script pendentes da versão 18.04.x para a versão 20.04.x: 35-openproject.sh
+14/05/2022 - Robson Vaamonde - Migração dos script pendentes da versão 18.04.x para a versão 24.04.x: 35-openproject.sh
 
 08/05/2022 - Robson Vaamonde - Criação do Bloco de Validação para Bloquear o uso das Teclas: Ctrl+C e Ctrl+Z na hora
 de executar os scripts, esse recurso irá permitir que quando você está rodando o script não pare o mesmo quando você
@@ -79,7 +79,7 @@ intelligence gratuita e de código aberto que pode ser usada para pesquisar conj
 03/02/2022 - Robson Vaamonde - Estudos para colocar os recursos do Prometheus e do InfluxDB no script do Grafana, 
 verificando a possibilidade de integrar o Guacamole Server para utilizar o Banco de Dados do MySQL.
 
-15/01/2022 - Robson Vaamonde - Novas soluções de TI para o Curso de Ubuntu Server 20.04.x LTS, criação dos scripts e
+15/01/2022 - Robson Vaamonde - Novas soluções de TI para o Curso de Ubuntu Server 24.04.x LTS, criação dos scripts e
 arquivos de configuração (criado: feito e publicado | dev: em desenvolvimento):
 	
 	_ 00-webdav.sh (criado): extensão do protocolo HTTP para transferência de arquivos;

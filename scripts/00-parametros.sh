@@ -6,10 +6,10 @@
 # Data de criação: 10/10/2021
 # Data de atualização: 13/09/2025
 # Versão: 1.02
-# Testado e homologado para a versão do Ubuntu Server 20.04.x LTS x64
+# Testado e homologado para a versão do Ubuntu Server 24.04.x LTS x64
 #
 # Parâmetros (variáveis de ambiente) utilizados nos scripts de instalação dos Serviços de Rede
-# no Ubuntu Server 20.04.x LTS, antes de modificar esse arquivo, veja os arquivos: BUGS, NEW e
+# no Ubuntu Server 24.04.x LTS, antes de modificar esse arquivo, veja os arquivos: BUGS, NEW e
 # CHANGELOG para mais informações.
 #
 #=============================================================================================
@@ -70,7 +70,7 @@ DOMINIONETBIOS="$(echo $DOMINIOSERVER | cut -d'.' -f1)"
 FQDNSERVER="$NOMESERVER.$DOMINIOSERVER"
 #
 # Variável do Endereço IPv4 principal (padrão) do Servidor Ubuntu desse curso
-IPV4SERVER="172.16.1.20"
+IPV4SERVER="192.168.0.10"
 #
 # Variável do Nome da Interface Lógica do Servidor Ubuntu Server desse curso
 # CUIDADO!!! o nome da interface de rede pode mudar dependendo da instalação do Ubuntu Server,
@@ -116,7 +116,8 @@ NETPLAN="/etc/netplan/00-installer-config.yaml"
 SSHDEP="openssh-server openssh-client"
 #
 # Variável de instalação dos softwares extras do OpenSSH Server
-SSHINSTALL="net-tools traceroute ipcalc nmap tree pwgen neofetch shellinabox"
+#SSHINSTALL="net-tools traceroute ipcalc nmap tree pwgen neofetch shellinabox"
+SSHINSTALL="net-tools traceroute ipcalc nmap tree pwgen"
 #
 # Variável da porta de conexão padrão do OpenSSH Server
 PORTSSH="22"
@@ -1084,7 +1085,7 @@ GUACAMOLEHISTORY="https://archive.apache.org/dist/guacamole/1.5.3/binary/guacamo
 # Variável de download do Conector do MySQL em Java do Apache Guacamole (Link atualizado no dia 14/09/2023)
 # Link para pesquisar a versão: https://dev.mysql.com/downloads/connector/j/ 
 # Link das versões antigas: https://downloads.mysql.com/archives/c-j/
-GUACAMOLEMYSQL="https://cdn.mysql.com//Downloads/Connector-J/mysql-connector-j_8.0.33-1ubuntu20.04_all.deb"
+GUACAMOLEMYSQL="https://cdn.mysql.com//Downloads/Connector-J/mysql-connector-j_8.0.33-1ubuntu24.04_all.deb"
 #
 # OBSERVAÇÃO: NO SCRIPT: 15-GUACAMOLE.SH É UTILIZADO AS VARIÁVEIS DO MYSQL DE USUÁRIO E SENHA
 # DO ROOT DO MYSQL CONFIGURADAS NO BLOCO DAS LINHAS: 366 até 371, VARIÁVEIS UTILIZADAS NO SCRIPT: 
@@ -1188,7 +1189,7 @@ USERPROMETHEUS="prometheus"
 # Declarando as variáveis utilizadas nas configurações do sistema de monitoramento Zabbix Server
 #
 # Variável de download do Repositório do Zabbix Server (Link atualizado no dia 25/01/2023)
-ZABBIXIREP="wget https://repo.zabbix.com/zabbix/6.4/ubuntu/pool/main/z/zabbix-release/zabbix-release_6.4-1+ubuntu20.04_all.deb"
+ZABBIXIREP="wget https://repo.zabbix.com/zabbix/6.4/ubuntu/pool/main/z/zabbix-release/zabbix-release_6.4-1+ubuntu24.04_all.deb"
 #
 # Variável de instalação do Zabbix Server e suas Dependências.
 ZABBIXINSTALL="install zabbix-server-mysql zabbix-frontend-php zabbix-apache-conf zabbix-agent \
@@ -1315,7 +1316,7 @@ PORTRUNDECK="4440"
 # Declarando as variáveis utilizadas nas configurações do sistema de monitoramento NTop-NG
 #
 # Variável de download do Repositório do NTop-NG (Link atualizado no dia 16/12/2021)
-NTOPNGREP="https://packages.ntop.org/apt-stable/20.04/all/apt-ntop-stable.deb"
+NTOPNGREP="https://packages.ntop.org/apt-stable/24.04/all/apt-ntop-stable.deb"
 #
 # Variável das dependências do laço de loop do NTop-NG
 NTOPNGDEP="bind9 software-properties-common"

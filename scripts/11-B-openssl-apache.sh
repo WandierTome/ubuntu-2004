@@ -10,7 +10,7 @@
 # Data de criação: 16/10/2021
 # Data de atualização: 01/05/2023
 # Versão: 0.15
-# Testado e homologado para a versão do Ubuntu Server 20.04.x LTS x64x
+# Testado e homologado para a versão do Ubuntu Server 24.04.x LTS x64x
 # Testado e homologado para a versão do OpenSSL v1.1.x
 # Testado e homologado para a versão do Apache2 v2.4.x
 #
@@ -47,17 +47,17 @@ source 00-parametros.sh
 # Configuração da variável de Log utilizado nesse script
 LOG=$LOGSCRIPT
 #
-# Verificando se o usuário é Root e se a Distribuição é >= 20.04.x 
+# Verificando se o usuário é Root e se a Distribuição é >= 24.04.x 
 # [ ] = teste de expressão, && = operador lógico AND, == comparação de string, exit 1 = A maioria 
 # dos erros comuns na execução
 clear
-if [ "$USUARIO" == "0" ] && [ "$UBUNTU" == "20.04" ]
+if [ "$USUARIO" == "0" ] && [ "$UBUNTU" == "24.04" ]
 	then
 		echo -e "O usuário é Root, continuando com o script..."
-		echo -e "Distribuição é >= 20.04.x, continuando com o script..."
+		echo -e "Distribuição é >= 24.04.x, continuando com o script..."
 		sleep 5
 	else
-		echo -e "Usuário não é Root ($USUARIO) ou a Distribuição não é >= 20.04.x ($UBUNTU)"
+		echo -e "Usuário não é Root ($USUARIO) ou a Distribuição não é >= 24.04.x ($UBUNTU)"
 		echo -e "Caso você não tenha executado o script com o comando: sudo -i"
 		echo -e "Execute novamente o script para verificar o ambiente."
 		exit 1
@@ -115,7 +115,7 @@ if [ -f $LOG ]
 		sleep 5
 fi
 #
-# Script de configuração do OpenSSL no GNU/Linux Ubuntu Server 20.04.x
+# Script de configuração do OpenSSL no GNU/Linux Ubuntu Server 24.04.x
 # opção do comando echo: -e (enable interpretation of backslash escapes), \n (new line)
 # opção do comando hostname: -I (all IP address), -A (all FQDN name), -d (domain)
 # opções do comando cut: -d (delimiter), -f (fields)
@@ -124,7 +124,7 @@ echo -e "Início do script $0 em: $(date +%d/%m/%Y-"("%H:%M")")\n" &>> $LOG
 clear
 echo
 #
-echo -e "Configuração do TLS/SSL do Apache2 no GNU/Linux Ubuntu Server 20.04.x\n"
+echo -e "Configuração do TLS/SSL do Apache2 no GNU/Linux Ubuntu Server 24.04.x\n"
 echo -e "Porta padrão utilizada pelo Apache2 Server TLS/SSL.: TCP 443"
 echo -e "Depois de executar a instalação da CA no GNU/Linux e no Windows, testar o acesso seguro abaixo.\n"
 echo -e "Confirmar o acesso com o Endereço IPv4 na URL: https://$(hostname -I | cut -d' ' -f1)/"

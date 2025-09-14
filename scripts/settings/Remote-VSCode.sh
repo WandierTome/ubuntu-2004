@@ -10,7 +10,7 @@
 # Data de criação: 10/10/2021
 # Data de atualização: 20/01/2022
 # Versão: 0.20
-# Testado e homologado para a versão do Ubuntu Server 20.04.x LTS x64
+# Testado e homologado para a versão do Ubuntu Server 24.04.x LTS x64
 
 Link do Visual Studio Code: https://code.visualstudio.com/
 Link do Marketplace: https://marketplace.visualstudio.com/VSCode

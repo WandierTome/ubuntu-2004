@@ -9,7 +9,7 @@ Github: https://github.com/vaamonde
 Data de criação: 13/10/2021
 Data de atualização: 10/06/2023
 Versão: 0.30
-Testado e homologado para a versão do Ubuntu Server 20.04.x LTS x64
+Testado e homologado para a versão do Ubuntu Server 24.04.x LTS x64
 Comando para verificar todas as versões dos scripts: grep 'Versão:' *.sh
 Comando para verificar todas as datas de atualização dos scripts: grep 'Data de atualização:' *.sh
   #script para automatizar a geração dos Releases das Versões dos Scripts

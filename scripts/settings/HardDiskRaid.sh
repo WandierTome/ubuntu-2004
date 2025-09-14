@@ -10,7 +10,7 @@
 # Data de criação: 10/10/2021
 # Data de atualização: 20/01/2022
 # Versão: 0.20
-# Testado e homologado para a versão do Ubuntu Server 20.04.x LTS x64
+# Testado e homologado para a versão do Ubuntu Server 24.04.x LTS x64
 #
 # RAID foi originalmente denominado de "Redundant Array of Inexpensive Drives" (Conjunto Redundante 
 # de Discos Baratos). Com o tempo, numa tentativa de dissociar o conceito de "discos baratos", a 

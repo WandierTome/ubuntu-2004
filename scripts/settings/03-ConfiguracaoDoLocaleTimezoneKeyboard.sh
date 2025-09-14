@@ -10,7 +10,7 @@
 # Data de criação: 10/10/2021
 # Data de atualização: 09/02/2022
 # Versão: 0.21
-# Testado e homologado para a versão do Ubuntu Server 20.04.x LTS x64
+# Testado e homologado para a versão do Ubuntu Server 24.04.x LTS x64
 #
 # Configuração do Locale (Localidade) do Sistema Operacional Ubuntu Server
 sudo localectl

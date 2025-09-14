@@ -10,7 +10,7 @@
 # Data de criação: 03/12/2021
 # Data de atualização: 29/04/2023
 # Versão: 0.12
-# Testado e homologado para a versão do Ubuntu Server 20.04.x LTS x64x
+# Testado e homologado para a versão do Ubuntu Server 24.04.x LTS x64x
 # Testado e homologado para a versão do Apache Guacamole Server 1.5.x e Cliente 1.5.x
 #
 # O Apache Guacamole é um gateway de desktop remoto sem cliente, ele suporta protocolos 
@@ -144,17 +144,17 @@ source 00-parametros.sh
 # Configuração da variável de Log utilizado nesse script
 LOG=$LOGSCRIPT
 #
-# Verificando se o usuário é Root e se a Distribuição é >= 20.04.x 
+# Verificando se o usuário é Root e se a Distribuição é >= 24.04.x 
 # [ ] = teste de expressão, && = operador lógico AND, == comparação de string, exit 1 = A maioria 
 # dos erros comuns na execução
 clear
-if [ "$USUARIO" == "0" ] && [ "$UBUNTU" == "20.04" ]
+if [ "$USUARIO" == "0" ] && [ "$UBUNTU" == "24.04" ]
 	then
 		echo -e "O usuário é Root, continuando com o script..."
-		echo -e "Distribuição é >= 20.04.x, continuando com o script..."
+		echo -e "Distribuição é >= 24.04.x, continuando com o script..."
 		sleep 5
 	else
-		echo -e "Usuário não é Root ($USUARIO) ou a Distribuição não é >= 20.04.x ($UBUNTU)"
+		echo -e "Usuário não é Root ($USUARIO) ou a Distribuição não é >= 24.04.x ($UBUNTU)"
 		echo -e "Caso você não tenha executado o script com o comando: sudo -i"
 		echo -e "Execute novamente o script para verificar o ambiente."
 		exit 1
@@ -228,7 +228,7 @@ if [ -f $LOG ]
 		sleep 5
 fi
 #
-# Script de instalação do Apache Guacamole Server e Client no GNU/Linux Ubuntu Server 20.04.x
+# Script de instalação do Apache Guacamole Server e Client no GNU/Linux Ubuntu Server 24.04.x
 # opção do comando echo: -e (enable interpretation of backslash escapes), \n (new line)
 # opção do comando hostname: -d (domain)
 # opção do comando date: + (format), %d (day), %m (month), %Y (year 1970), %H (hour 24), %M (minute 60)
@@ -237,7 +237,7 @@ echo -e "Início do script $0 em: $(date +%d/%m/%Y-"("%H:%M")")\n" &>> $LOG
 clear
 echo
 #
-echo -e "Instalação do Apache Guacamole Server e Client no GNU/Linux Ubuntu Server 20.04.x\n"
+echo -e "Instalação do Apache Guacamole Server e Client no GNU/Linux Ubuntu Server 24.04.x\n"
 echo -e "Porta padrão utilizada pelo Apache Tomcat9...: TCP 8443"
 echo -e "Porta padrão utilizada pelo Guacamole Server.: TCP 4822\n"
 echo -e "Após a instalação do Apache Guacamole acesse a URL: https://$(hostname -d | cut -d' ' -f1):8443/guacamole\n"

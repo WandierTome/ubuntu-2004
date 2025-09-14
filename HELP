@@ -9,11 +9,11 @@ Github: https://github.com/vaamonde
 Data de criação: 19/10/2021
 Data de atualização: 03/10/2022
 Versão: 0.18
-Testado e homologado para a versão do Ubuntu Server 20.04.x LTS x64
+Testado e homologado para a versão do Ubuntu Server 24.04.x LTS x64
 
 #======================= COMO UTILIZAR OS SCRIPTS DESSE CURSO NO SEU SERVIDOR =======================
 
-Para você se manter atualizado de todas as novidades do repositório do Ubuntu Server 20.04.x no Github,
+Para você se manter atualizado de todas as novidades do repositório do Ubuntu Server 24.04.x no Github,
 recomendo os 4 (quatro) procedimentos abaixo:
 
 Antes de tudo, criar uma conta no Github: https://github.com/signup
@@ -22,7 +22,7 @@ Segundo.: Para receber as notificações clique no Ícone "WATCH" (Observar) do 
 Terceiro: Caso você conheça os conceitos de "FORK" (Garfar) faça um Fork do repositório ubuntu-2004/
 Quarto..: Dúvidas, críticas ou sugestões mande na Guia "ISSUES" (Questões) do repositório ubuntu-2004/
 
-#00_ Arquivos e diretórios principais do curso de Ubuntu Server 20.04.x LTS x64 DevOps Shell Script.
+#00_ Arquivos e diretórios principais do curso de Ubuntu Server 24.04.x LTS x64 DevOps Shell Script.
 	_ README: arquivo de documentação principal do curso, contendo os links para os vídeos e documentação.
 	_ BUGS: arquivo dos Bugs (Erros) encontrados nos scripts, arquivos de configuração ou na Guia Issues.
 	_ CHANGELOG: arquivo de criação, mudanças ou melhorias nos scripts ou arquivos configuração.
@@ -39,16 +39,16 @@ Quarto..: Dúvidas, críticas ou sugestões mande na Guia "ISSUES" (Questões) d
 	_ scripts/install: diretório dos arquivos de instalação e configuração do Ubuntu Server.
 	_ scripts/settings/: diretório dos arquivos de configuração principal do Ubuntu Server.
 
-#01_ Instalação do Ubuntu Server 20.04.x LTS x64.
-	_ Todos os procedimentos de criação da máquina virtual e instalação do Ubuntu Server 20.04.x LTS 
+#01_ Instalação do Ubuntu Server 24.04.x LTS x64.
+	_ Todos os procedimentos de criação da máquina virtual e instalação do Ubuntu Server 24.04.x LTS 
 	_ se encontra no diretório: ubuntu-2004/scripts/install.
 	_ Os principais arquivos de instalação do Ubuntu Server são:
-	_ 	01-InstalacaoDoUbuntuServer-20.04.3-LTS.md (utilizado nesse curso);
-	_ 	02-InstalacaoDoUbuntuServer-20.04-RPI.md;
+	_ 	01-InstalacaoDoUbuntuServer-24.04.3-LTS.md (utilizado nesse curso);
+	_ 	02-InstalacaoDoUbuntuServer-24.04-RPI.md;
 	_ 	03-InstalacaoDoUbuntuCore-20-RPI.md.
 
-#02_ Configurações básicas do Ubuntu Server 20.04.x LTS x64.
-	_ Todos os procedimentos de configuração básica do Ubuntu Server 20.04.x LTS se encontra no 
+#02_ Configurações básicas do Ubuntu Server 24.04.x LTS x64.
+	_ Todos os procedimentos de configuração básica do Ubuntu Server 24.04.x LTS se encontra no 
 	_ diretório: ubuntu-2004/scripts/settings/.
 	_ Os principais arquivos de configuração do Ubuntu Server são:
 	_ 	01-AtualizacaoDoSistema.sh;
@@ -59,10 +59,10 @@ Quarto..: Dúvidas, críticas ou sugestões mande na Guia "ISSUES" (Questões) d
 	_ OBSERVAÇÃO IMPORTANTE: É recomendado fazer a configuração básica do Ubuntu Server antes de 
 	_ executar os scripts desse curso.
 
-#03_ Diretório dos scripts utilizados no Ubuntu Server 20.04.x LTS x64.
-	_ Todos os scripts de instalação e configuração dos serviços de rede no Ubuntu Server 20.04.x
+#03_ Diretório dos scripts utilizados no Ubuntu Server 24.04.x LTS x64.
+	_ Todos os scripts de instalação e configuração dos serviços de rede no Ubuntu Server 24.04.x
 	_ LTS se encontra no diretório: ubuntu-2004/scripts/.
-	_ Todos os arquivos de configuração dos serviços de rede no Ubuntu Server 20.04.x LTS se
+	_ Todos os arquivos de configuração dos serviços de rede no Ubuntu Server 24.04.x LTS se
 	_ encontra no diretório: /ubuntu-2004/scripts/conf/.
 	_ Cada serviço de rede possui o seu subdiretório com o nome do seu serviço, exemplo: zabbix/,
 	_ zimbra/, samba/, etc...
@@ -85,7 +85,7 @@ Quarto..: Dúvidas, críticas ou sugestões mande na Guia "ISSUES" (Questões) d
 	_ mesmo padrão, todos os scripts estão interligados no arquivo: 00-parametros.sh na linha de
 	_ configuração: "SOURCE", todos os scripts geram arquivos de "LOG" no diretório: /var/log/ com o
 	_ nome do arquivo do script configurado na linha: "LOG", todos os script tem um Bloco de Teste
-	_ Lógico "(If)" básico que verifica se o usuário é "Root" e se a Distribuição é "20.04", alguns 
+	_ Lógico "(If)" básico que verifica se o usuário é "Root" e se a Distribuição é "24.04", alguns 
 	_ scripts tem o Bloco de Laço de Loop para verificar se as principais dependências estão 
 	_ instaladas, todos os scripts foram desenvolvidos para serem executados apenas "1 (uma)" vez.
 

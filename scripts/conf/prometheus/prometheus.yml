@@ -8,7 +8,7 @@
 # Data de criação: 04/02/2022
 # Data de atualização: 02/05/2023
 # Versão: 0.03
-# Testado e homologado para a versão do Ubuntu Server 20.04.x LTS x64x
+# Testado e homologado para a versão do Ubuntu Server 24.04.x LTS x64x
 #
 # Configurações Globais do Prometheus
 global:

@@ -8,7 +8,7 @@
 # Data de criação: 10/10/2021
 # Data de atualização: 05/04/2022
 # Versão: 0.03
-# Testado e homologado para a versão do Ubuntu Server 20.04.x LTS x64
+# Testado e homologado para a versão do Ubuntu Server 24.04.x LTS x64
 # Testado e homologado para a versão do TFTP-HPA v5.2.x
 #
 # Configuração do usuário de serviço do Servidor TFTP-HPA

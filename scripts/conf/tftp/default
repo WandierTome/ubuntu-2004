@@ -9,7 +9,7 @@
 # Data de criação: 31/03/2022
 # Data de atualização: 31/03/2022
 # Versão: 0.01
-# Testado e homologado para a versão do Ubuntu Server 20.04.x LTS x64
+# Testado e homologado para a versão do Ubuntu Server 24.04.x LTS x64
 # Testado e homologado para a versão do TFTP-HPA v5.2.x e PXE Syslinux v
 #
 # Configuração padrão do Boot Menu

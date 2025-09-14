@@ -8,7 +8,7 @@
 # Data de criação: 11/10/2021
 # Data de atualização: 11/03/2022
 # Versão: 0.05
-# Testado e homologado para a versão do Ubuntu Server 20.04.x LTS x64
+# Testado e homologado para a versão do Ubuntu Server 24.04.x LTS x64
 #
 # Comando utilizado para verificar se o serviço (daemon) de rede tem suporte 
 # ao TCPWrappers: ldd /usr/sbin/sshd | grep libwrap (Biblioteca LibWrap)

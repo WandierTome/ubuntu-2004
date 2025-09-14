@@ -9,7 +9,7 @@ Github: https://github.com/vaamonde
 Data de criação: 10/10/2021
 Data de atualização: 23/09/2023
 Versão: 1.02
-Testado e homologado para a versão do Ubuntu Server 20.04.x LTS x64
+Testado e homologado para a versão do Ubuntu Server 24.04.x LTS x64
 
 ============================================= ATUALIZAÇÕES DOS SCRIPTS =============================================
 23/09/2023 - Robson Vaamonde - Analise do erro reportado na na Guia ISSUE: Guacamole #18 postado pelo AlexandreTesser
@@ -222,9 +222,9 @@ lftp, acrescentado a opção de testar o certificado TLS/SSL do servidor VSFTPd 
 do OpenSSL e dependência do Bind9 na variável: SSLDEPCA, melhoria nos arquivos: mysqld.cnf e mysql.cnf em relação ao
 suporte ao TLS/SSL, acréscimo da cópia e edição do arquivo: mysql.cnf no script: 08-lamp.sh.
 
-14/05/2022 - Robson Vaamonde - Migração do script: 35-openproject.sh da versão 18.04.x para 20.04.x, atualização do
+14/05/2022 - Robson Vaamonde - Migração do script: 35-openproject.sh da versão 18.04.x para 24.04.x, atualização do
 script: 00-parametros.sh com as opções de instalação do OpenProject, atualização do arquivo: openproject.list com o
-Source List do OpenProject para a versão 20.04 do Ubuntu.
+Source List do OpenProject para a versão 24.04 do Ubuntu.
 
 13/05/2022 - Robson Vaamonde - Criação do arquivo: mysql.conf com as opções dos certificados assinado do MySQL Server,
 customização do script: 11-E-openssl-mysql.sh para resolver os problemas de criação e geração dos certificados SSL
@@ -347,8 +347,8 @@ para o do Firewall pfSense e adicionado os DNS do Google (8.8.8.8 e 8.8.4.4).
 08/03/2022 - Robson Vaamonde - Acréscimo no arquivo: 00-parametros.sh na opção do OpenSSH Server a instalação do
 pacote extra: traceroute.
 
-02/03/2022 - Robson Vaamonde - Atualização dos arquivos de instalação: 01-InstalacaoDoUbuntuServer-20.04.3-LTS e 
-01-InstalacaoDoUbuntuServer-20.04.4-LTS, acréscimo das explicações para executar mais de uma vez o script no mesmo
+02/03/2022 - Robson Vaamonde - Atualização dos arquivos de instalação: 01-InstalacaoDoUbuntuServer-24.04.3-LTS e 
+01-InstalacaoDoUbuntuServer-24.04.4-LTS, acréscimo das explicações para executar mais de uma vez o script no mesmo
 servidor no arquivo: HELP.
 
 20/02/2022 - Robson Vaamonde - Alteração das opções do arquivo: php.ini, acrescentado os valores de referência do GLPI
@@ -558,7 +558,7 @@ dos arquivos hosts e hostname do script: 02-dhcp.sh, criação do arquivo timesy
 05-ntp.sh, 
 
 15/10/2021 - Robson Vaamonde - Melhorias no script: 07-lamp.sh, atualização da versão do Debconf do Mysql Server para
-a versão 8.0, acréscimo da dependência do PhpMyAdmin php-json e retirada do: php-gettext no Ubuntu 20.04.x o suporte
+a versão 8.0, acréscimo da dependência do PhpMyAdmin php-json e retirada do: php-gettext no Ubuntu 24.04.x o suporte
 ao php-getttext foi retirado dos repositórios oficiais, remoção da versão do pecl install mcrypt para facilitar o
 processo de instalação da dependência de criptografia do PHP, atualização da versão do PHP 7.4, atualização dos arquivos
 de configuração: apache2.conf, mcrypt.ini, mysqld.cnf, php.ini, phpinfo.php, teste.html. Resolvendo o Bug referente a
@@ -589,9 +589,9 @@ configuração dos serviços de: hostname, hosts, nsswitch.conf, 00-installer-co
 named.conf.local, named.conf.options, pti.intra.hosts, 172.16.1.rev e dnsupdate-cron.
 
 11/10/2021 - Robson Vaamonde - Customização do script: 01-openssh.sh e dos arquivos de configuração dos serviços de: 
-issue.net, hosts, hosts.allow, hosts.deny e sshd_config, todos customizados para a versão 20.04.x do Ubuntu Server.
+issue.net, hosts, hosts.allow, hosts.deny e sshd_config, todos customizados para a versão 24.04.x do Ubuntu Server.
 
 10/10/2021 - Robson Vaamonde - Criação do arquivo 00-parametros.sh para facilitar as configurações dos scripts, copia
 dos scripts da versão 18.04.x e organização dos novos diretórios e arquivos de configuração.
 
-06/10/2021 - Robson Vaamonde - Criação do repositório e configuração dos script para a nova versão do Ubuntu 20.04.x.
+06/10/2021 - Robson Vaamonde - Criação do repositório e configuração dos script para a nova versão do Ubuntu 24.04.x.

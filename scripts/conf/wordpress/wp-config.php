@@ -10,7 +10,7 @@
 	* Data de criação: 18/10/2021
 	* Data de atualização: 30/04/2022
 	* Versão: 0.05
-	* Testado e homologado para a versão do Ubuntu Server 20.04.x LTS x64x
+	* Testado e homologado para a versão do Ubuntu Server 24.04.x LTS x64x
 	* Testado e homologado para a versão do Apache2 v2.4.x
 	* Testado e homologado para a versão do Wordpress v6.0.x
 */

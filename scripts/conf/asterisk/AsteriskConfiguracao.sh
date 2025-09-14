@@ -10,7 +10,7 @@
 # Data de criação: 14/01/2022
 # Data de atualização: 21/01/2022
 # Versão: 0.03
-# Testado e homologado para a versão do Ubuntu Server 20.04.x LTS x64x
+# Testado e homologado para a versão do Ubuntu Server 24.04.x LTS x64x
 # Testado e homologado para a versão do Asterisk v19.1.x
 #
 # Editando o arquivo de configuração dos módulos modules.conf

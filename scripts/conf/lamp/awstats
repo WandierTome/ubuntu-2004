@@ -8,7 +8,7 @@
 # Data de criação: 18/01/2022
 # Data de atualização: 18/01/2022
 # Versão: 0.01
-# Testado e homologado para a versão do Ubuntu Server 20.04.x LTS x64x
+# Testado e homologado para a versão do Ubuntu Server 24.04.x LTS x64x
 # Testado e homologado para a versão do AWStats v7.x
 #
 # Desativando os envios de email do AWStats para o usuário root (padrão)

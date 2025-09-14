@@ -9,7 +9,7 @@
 # Data de criação: 12/01/2022
 # Data de atualização: 12/01/2022
 # Versão: 0.02
-# Testado e homologado para a versão do Ubuntu Server 20.04.x LTS x64x
+# Testado e homologado para a versão do Ubuntu Server 24.04.x LTS x64x
 # Testado e homologado para a versão do Wordpress v5.8.x
 #
 # Script de automação da criação das chaves de Salt do arquivo wp-config.php

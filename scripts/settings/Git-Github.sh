@@ -10,7 +10,7 @@
 # Data de criação: 10/10/2021
 # Data de atualização: 20/01/2022
 # Versão: 0.20
-# Testado e homologado para a versão do Ubuntu Server 20.04.x LTS x64
+# Testado e homologado para a versão do Ubuntu Server 24.04.x LTS x64
 
 #OBSERVAÇÃO IMPORTANTE: A partir do dia 13 de Agosto 2020 o Github não aceitará mais usuários e 
 #senhas de contas para se autenticar no github utilizando operações do comando Git (terminal).

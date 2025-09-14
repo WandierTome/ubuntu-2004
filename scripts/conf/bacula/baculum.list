@@ -8,9 +8,9 @@
 # Data de criação: 21/12/2021
 # Data de atualização: 10/08/2022
 # Versão: 0.02
-# Testado e homologado para a versão do Ubuntu Server 20.04.x LTS x64
+# Testado e homologado para a versão do Ubuntu Server 24.04.x LTS x64
 # Testado e homologado para a versão do Bacula Server 13.x e do Baculum 11.x
 
-# Repositório da versão do Ubuntu Server 20.04.x LTS (ativado)
+# Repositório da versão do Ubuntu Server 24.04.x LTS (ativado)
 deb [ arch=amd64 ] http://bacula.org/downloads/baculum/stable-11/ubuntu focal main
 deb-src http://bacula.org/downloads/baculum/stable-11/ubuntu focal main

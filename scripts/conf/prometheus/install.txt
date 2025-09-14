@@ -1,4 +1,4 @@
-#Install Prometheus Ubuntu Server 20.04.3 LTS
+#Install Prometheus Ubuntu Server 24.04.3 LTS
 #Link: https://www.vultr.com/docs/install-prometheus-server-on-ubuntu-20-04/
 #Link: https://linuxhint.com/install-prometheus-on-ubuntu/
 

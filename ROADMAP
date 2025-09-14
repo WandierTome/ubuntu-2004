@@ -9,9 +9,9 @@ Github: https://github.com/vaamonde
 Data de criação: 13/01/2022
 Data de atualização: 10/06/2023
 Versão: 0.34
-Testado e homologado para a versão do Ubuntu Server 20.04.x LTS x64
+Testado e homologado para a versão do Ubuntu Server 24.04.x LTS x64
 
-#= Roadmap de Novos Scripts do Curso de GNU/Linux Ubuntu Server 20.04.x LTS DevOps utilizando Shell Script
+#= Roadmap de Novos Scripts do Curso de GNU/Linux Ubuntu Server 24.04.x LTS DevOps utilizando Shell Script
 
 00-checkmk.sh (dev): software desenvolvido em Python e C ++ para monitoramento de infraestrutura de TI;
 00-iperf.sh (dev): software utilizado para testar a largura de banda e desempenho de redes de computadores;
@@ -41,26 +41,26 @@ Testado e homologado para a versão do Ubuntu Server 20.04.x LTS x64
 00-wazuh.sh (dev): plataforma de segurança gratuita e de código aberto que unifica os recursos de XDR e SIEM.
 00-fengoffice.sh (dev): plataforma de colaboração de código aberto desenvolvida pela Feng Office.
 
-#= Roadmap do Curso de GNU/Linux Ubuntu Server 20.04.x LTS DevOps utilizando Shell Script =#
+#= Roadmap do Curso de GNU/Linux Ubuntu Server 24.04.x LTS DevOps utilizando Shell Script =#
 
-#01_ Apresentação do Curso de Ubuntu Server 20.04.x LTS DevOps Shell Script (24/01/2022)
-#02_ Conhecendo o Cenário e Topologia do Curso de Ubuntu Server 20.04.x LTS (26/01/2022)
+#01_ Apresentação do Curso de Ubuntu Server 24.04.x LTS DevOps Shell Script (24/01/2022)
+#02_ Conhecendo o Cenário e Topologia do Curso de Ubuntu Server 24.04.x LTS (26/01/2022)
 #03_ Básico de Git, Github, Vim, VSCode, Bash e Shell Script (28/01/2022)
 #04_ Conhecendo a Estrutura do Repositório Ubuntu-2004 no Github (31/01/2022)
-#05_ Conhecendo o arquivo HELP do Curso de Ubuntu Server 20.04.x LTS (02/02/2022)
-#06_ Conhecendo o arquivo BUGS do Curso de Ubuntu Server 20.04.x LTS (04/02/2022)
-#07_ Conhecendo o arquivo CHANGELOG do Curso de Ubuntu Server 20.04.x LTS (07/02/2022)
-#08_ Conhecendo o arquivo LICENSE do Curso de Ubuntu Server 20.04.x LTS (09/02/2022)
-#09_ Conhecendo o arquivo NEWS do Curso de Ubuntu Server 20.04.x LTS (11/02/2022)
-#10_ Conhecendo o arquivo RELEASE do Curso de Ubuntu Server 20.04.x LTS (14/02/2022)
-#11_ Conhecendo o arquivo PORTS do Curso de Ubuntu Server 20.04.x LTS (16/02/2022)
-#12_ Conhecendo o arquivo FAQ do Curso de Ubuntu Server 20.04.x LTS (18/02/2022)
-#13_ Conhecendo o arquivo WARNING do Curso de Ubuntu Server 20.04.x LTS (05/10/2022)
+#05_ Conhecendo o arquivo HELP do Curso de Ubuntu Server 24.04.x LTS (02/02/2022)
+#06_ Conhecendo o arquivo BUGS do Curso de Ubuntu Server 24.04.x LTS (04/02/2022)
+#07_ Conhecendo o arquivo CHANGELOG do Curso de Ubuntu Server 24.04.x LTS (07/02/2022)
+#08_ Conhecendo o arquivo LICENSE do Curso de Ubuntu Server 24.04.x LTS (09/02/2022)
+#09_ Conhecendo o arquivo NEWS do Curso de Ubuntu Server 24.04.x LTS (11/02/2022)
+#10_ Conhecendo o arquivo RELEASE do Curso de Ubuntu Server 24.04.x LTS (14/02/2022)
+#11_ Conhecendo o arquivo PORTS do Curso de Ubuntu Server 24.04.x LTS (16/02/2022)
+#12_ Conhecendo o arquivo FAQ do Curso de Ubuntu Server 24.04.x LTS (18/02/2022)
+#13_ Conhecendo o arquivo WARNING do Curso de Ubuntu Server 24.04.x LTS (05/10/2022)
 _
 #13_ Como utilizar o VSCODE para Customizar os Scripts antes de executar no seu Servidor Ubuntu (21/02/2022)
 _
-#14_ Instalação e Configuração do Ubuntu Server 20.04.x LTS Focal Fossa (23/02/2022)
-#15_ Configurações Básicas do Ubuntu Server 20.04.x LTS Focal Fossa (25/02/2022)
+#14_ Instalação e Configuração do Ubuntu Server 24.04.x LTS Focal Fossa (23/02/2022)
+#15_ Configurações Básicas do Ubuntu Server 24.04.x LTS Focal Fossa (25/02/2022)
 _ 
 #16A_ 01-openssh.sh Customizando o Script e Arquivos de Configuração do OpenSSH Server - PARTE-01 (07/03/2022)
 #16B_ 01-openssh.sh Instalação e Configuração do OpenSSH Server - PARTE-02 (09/03/2022)

@@ -10,7 +10,7 @@
 # Data de criação: 19/10/2021
 # Data de atualização: 18/01/2022
 # Versão: 0.04
-# Testado e homologado para a versão do Ubuntu Server 20.04.x LTS x64x
+# Testado e homologado para a versão do Ubuntu Server 24.04.x LTS x64x
 # Testado e homologado para a versão do Tomcat 9.0.x, OpenJDK 11.x, OpenJRE 11.x
 -->
 <tomcat-users xmlns="http://tomcat.apache.org/xml"

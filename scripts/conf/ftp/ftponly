@@ -9,7 +9,7 @@
 # Data de criação: 18/10/2021
 # Data de atualização: 18/10/2021
 # Versão: 0.01
-# Testado e homologado para a versão do Ubuntu Server 20.04.x LTS x64x
+# Testado e homologado para a versão do Ubuntu Server 24.04.x LTS x64x
 # Testado e homologado para a versão do Vsftpd Server v3.0.x
 
 echo "Esta conta é limitada apenas para acesso remoto ao Servidor FTP."

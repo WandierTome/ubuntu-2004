@@ -18,7 +18,7 @@ Link do Marketplace: https://marketplace.visualstudio.com/VSCode
 
 #00_ Verificando as Informações do Sistema Operacional Linux Mint<br>
 
-	OBSERVAÇÃO IMPORTANTE: Linux Mint 20.3 Una é derivado do Ubuntu Desktop 20.04.4 Focal Fossa
+	OBSERVAÇÃO IMPORTANTE: Linux Mint 20.3 Una é derivado do Ubuntu Desktop 24.04.4 Focal Fossa
 	sudo cat /etc/os-release
 
 #01_ Atualização do Sistema Operacional Linux Mint<br>

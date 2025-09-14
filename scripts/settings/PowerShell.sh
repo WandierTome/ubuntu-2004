@@ -46,7 +46,7 @@ Link do .NET SDK e Runtime: https://docs.microsoft.com/pt-br/dotnet/core/install
 	libgssapi-krb5-2 libicu66 libssl1.1 libstdc++6 zlib1g
 #
 # 03_ Baixando o repositório oficial do PowerShell e do .NET SDK e Runtime
-	03.1 - wget -q https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb
+	03.1 - wget -q https://packages.microsoft.com/config/ubuntu/24.04/packages-microsoft-prod.deb
 #
 # 04_ Instalando o repositório oficial do PowerShell e do .NET SDK e Runtime
 	04.1 - sudo dpkg -i packages-microsoft-prod.deb
